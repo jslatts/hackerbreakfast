@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face { 
+  font-family: ithappens; 
+  src: url('ithappens.otf'); 
+} 
+
+a:link, a:visited, a:hover, a:active {
+  color:#000000;
+}
+
+body {
+  font-style: italic;
+  background-image:url('bg.png');
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: ithappens; 
+}
+
+h1 { 
+  margin-top:10px;
+  font-size: 8em;
+  height:100px;
+} 
+
+h2 { 
+  margin-bottom:10px;
+  font-size: 3em; 
+  height: 30px;
+} 
+
+h3 { 
+  margin-top:20px;
+  font-size: 2.5em;
+  height: 30px;
+} 
+
+.wrapper {
+}
+
+.showup {
+  margin-top:20px;
+  font-family: ithappens; 
+  font-size: 3em;
+  padding-right: 5px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.showup {
+  width: 200px;
+  height: 45px;
+}
+
+.rsvp a:link, 
+.rsvp a:visited, 
+.rsvp a:hover, 
+.rsvp a:active {
+  text-decoration: none;
+}
+
+.menu {
+  background-image:url('menu.png');
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  position: relative;
+}
+
+.time {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.intro, .extro {
+  padding-top:10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+
+.extro {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
